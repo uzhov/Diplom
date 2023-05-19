@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="213.0" prefWidth="428.0" stylesheets="@../../../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Accountantscreen">
+   <children>
+      <Button layoutX="4.0" layoutY="1.0" mnemonicParsing="false" onAction="#mainscreen" text="Главное окно" />
+      <Label fx:id="label" layoutX="180.0" layoutY="1.0" prefHeight="27.0" prefWidth="190.0" text="Бухгалтер">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ComboBox fx:id="monthcb" layoutX="4.0" layoutY="63.0" prefHeight="29.0" prefWidth="190.0" promptText="Выберите месяц" />
+      <TextField fx:id="yeartf" layoutX="37.0" layoutY="119.0" promptText="Введите год" />
+      <Button layoutX="112.0" layoutY="155.0" mnemonicParsing="false" onAction="#formreport" text="Сформировать отчет" />
+      <ComboBox fx:id="monthcb1" layoutX="229.0" layoutY="63.0" prefHeight="29.0" prefWidth="190.0" promptText="Выберите месяц" />
+      <TextField fx:id="yeartf1" layoutX="230.0" layoutY="119.0" promptText="Введите год" />
+   </children>
+</AnchorPane>

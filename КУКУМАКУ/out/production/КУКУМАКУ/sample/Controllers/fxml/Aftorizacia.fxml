@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="603.0" stylesheets="@../../../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <children>
+      <Button layoutX="257.0" layoutY="342.0" mnemonicParsing="false" onAction="#input" text="Войти" />
+      <TextField fx:id="login" layoutX="192.0" layoutY="242.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField fx:id="password" layoutX="191.0" layoutY="294.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="205.0" layoutY="136.0" prefHeight="35.0" prefWidth="192.0" text="АВТОРИЗАЦИЯ">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ComboBox fx:id="rolecb" layoutX="191.0" layoutY="183.0" prefHeight="29.0" prefWidth="220.0" promptText="Выбрать должность" />
+      <ImageView fitHeight="123.0" fitWidth="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Logo/rOhX0gS1r3A.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
